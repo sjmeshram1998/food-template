@@ -1,0 +1,96 @@
+.bg-color {
+    background-color: #ffdab9;
+    padding-bottom: 5rem;
+}
+.btn-style {
+    background-color: #df5890;
+    color: white;
+    box-shadow: 3px 3px black;
+
+}
+.col-margin {
+    margin-top: 10rem;
+}
+.pd {
+    /* padding: 3rem; */
+    margin: 2rem;
+
+}
+nav {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+  }
+
+li {
+        /* display: inline; */
+        float: left;
+        
+}
+li a {
+    padding: 0.7rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+  
+}
+li a:hover {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    
+
+}
+.active {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.display {
+    display: none;
+    /* visibility: hidden; */
+}
+/* .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} */
+/* Media Query */
+/* @media screen and (max-width: 540) {
+    
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+       
+    .navigation ul {
+      display: block;    
+}
+} */
+@media screen and (min-width :768px) and (max-width: 991px) {
+
+    .col-margin {
+        margin-top: 4rem;
+    }
+ 
+  
+}
+
+@media screen and (max-width: 540px)
+{
+   .col-margin {
+        margin-top: 0rem;
+    } 
+    
+}
